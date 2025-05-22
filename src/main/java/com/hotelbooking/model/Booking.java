@@ -1,3 +1,6 @@
+package com.hotelbooking.model;
+
+import com.hotelbooking.model.Customer;
 import com.hotelbooking.model.Room;
 import jakarta.persistence.*;
 import java.time.LocalDate;

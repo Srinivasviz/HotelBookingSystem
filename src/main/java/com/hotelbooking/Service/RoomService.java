@@ -1,4 +1,4 @@
-package com.hotelbooking.service;
+package com.hotelbooking.Service;
 
 import com.hotelbooking.model.Room;
 import com.hotelbooking.repository.RoomRepository;
@@ -9,10 +9,8 @@ import java.util.Optional;
 
 @Service
 public class RoomService {
-
     private final RoomRepository roomRepository;
 
-    // Constructor injection for repository
     public RoomService(RoomRepository roomRepository) {
         this.roomRepository = roomRepository;
     }
